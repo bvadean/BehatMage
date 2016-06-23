@@ -99,8 +99,7 @@ class MagentoContext extends RawMinkContext implements MagentoAwareInterface, Co
     }
 
     /**
-     * @Given /^(?:|I )am on "(?P<page>[^"]+)"$/
-     * @When /^(?:|I )go to "(?P<page>[^"]+)"$/
+     * @Given /^(?:|I )am on route "(?P<page>[^"]+)"$/
      */
     public function iAmOn($page)
     {
